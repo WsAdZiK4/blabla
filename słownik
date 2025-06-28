@@ -1,0 +1,17 @@
+meme_dict = {"CRINGE": "Coś wyjątkowo zawstydzającego"
+            "LOL": "częsta reakcja na coś zabawnego"
+            "LMAO": "śmiech do łez",
+            "ROLF": "turlam się ze śmiechu",
+            "BRUH": "wyraz zdziwienia lub niedowierzania",
+            "POG": "wyraz podziwu lub ekscytacji",
+            "XD": "Odpowioedź na coś zabawnego lub absurdalnego"
+
+
+
+word = input("Wpisz współczesne słowo, którego nie rozumiesz. UŻYWAJ WIELKICH LITER")
+
+
+if word in meme_dict.keys():
+    prinnt(meme_dict[word])
+else:
+    print("nie znam takiego słowa")
